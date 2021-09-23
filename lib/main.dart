@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           title: Text('Material Banner sample'),
         ),
 
-        /// ✨✨SnackBarと同様にMaterialBannerも、既にbuildの中でScaffoldを利用している場合、Builderが必要。
+        /// ✨✨MaterialBannerは、buildの中でScaffoldを利用している場合、Builderが必要(SnackBarと同様)。
         /// (微妙にハマりポイントかもしれない)
         body: Builder(
           builder: (BuildContext context) {
